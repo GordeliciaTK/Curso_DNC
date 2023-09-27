@@ -69,5 +69,16 @@ font-family: "inter";
     
 }
 .card{
-    margin: 50px 30px;
+    margin: 50px 50px;
+}
+#seta-esquerda{
+    display: none;
+}
+#card3{
+    display: none;
+}
+.seta{
+    text-align: center;
+    margin-top: 100px;
+   
 }
