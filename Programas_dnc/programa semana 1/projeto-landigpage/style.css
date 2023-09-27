@@ -33,10 +33,41 @@ font-family: "inter";
     columns:auto;
 }
 .icone{
-    margin: 50px 0px 50px 100px;
+    margin: 20px 0px 20px 100px;
     padding: 25px;
 }
 .textoinformativo{
     display: flex;
     align-items: center;
+}
+#menuVideo{
+    display: grid;
+     grid-auto-flow: column;
+     
+    }
+#tituloVideo{
+    color:#247BA0;
+    margin-top: 50px ;
+    
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titulocard{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.card{
+    margin: 50px 30px;
 }
