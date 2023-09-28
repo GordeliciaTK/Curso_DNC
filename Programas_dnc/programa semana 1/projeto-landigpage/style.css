@@ -80,8 +80,14 @@ font-family: "inter";
 .seta{
     text-align: center;
     margin-top: 100px;
+    cursor: pointer;
    
 }
 #seta-esquerda{
     margin-top: 120px;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 300ms;
+
 }
